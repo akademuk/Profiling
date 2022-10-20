@@ -1,21 +1,22 @@
 @font-face {
     font-family:'Gilroy-Bold';
-    src: url(../font/Gilroy-Bold.woff2) format(woff2),
-         url(../font/Gilroy-Bold.woff) format(woff);
+    src: url("../font/Gilroy-Bold.woff2") format("woff2"),
+         url("../font/Gilroy-Bold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family:'Gilroy-Regular';
-    src: url(../font/Gilroy-Regular.woff2) format(woff2),
-         url(../font/Gilroy-Regular.woff) format(woff);
+    src: url("../font/Gilroy-Regular.woff2") format("woff2"),
+         url("../font/Gilroy-Regular.woff") format("woff");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family:'Barlow-Medium';
-    src: url(../font/Barlow-Medium.woff2) format(woff2),
-         url(../font/Barlow-Medium.woff) format(woff);
+    font-family:"Barlow-Medium";
+    src: url("../font/Barlow-Medium.woff2") format("woff2"),
+         url("../font/Barlow-Medium.woff") format("woff"),
+         url("../font/Barlow-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
@@ -23,13 +24,14 @@ body {
     margin: 0;
     padding: 0;
     max-width: 100%;
+    font-family:'Gilroy-Bold';
 }
 a {
     text-decoration: none;
 }
 .footer {
     padding: 100px 150px 50px;
-    background:#000000;
+    background:#252525;
     background-blend-mode: screen, normal;
     display: flex;
     flex-direction: column;
@@ -95,7 +97,7 @@ a {
     margin-right: 3px;
 }
 .text a {
-    font-family:'Barlow-Medium';
+    font-family:'Gilroy-Bold';
     font-size: 18px;
     line-height: 120%;
     text-transform: uppercase;
