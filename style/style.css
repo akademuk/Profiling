@@ -1,0 +1,110 @@
+@font-face {
+    font-family:'Gilroy-Bold';
+    src: url(../font/Gilroy-Bold.woff2) format(woff2),
+         url(../font/Gilroy-Bold.woff) format(woff);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family:'Gilroy-Regular';
+    src: url(../font/Gilroy-Regular.woff2) format(woff2),
+         url(../font/Gilroy-Regular.woff) format(woff);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family:'Barlow-Medium';
+    src: url(../font/Barlow-Medium.woff2) format(woff2),
+         url(../font/Barlow-Medium.woff) format(woff);
+    font-weight: 500;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+a {
+    text-decoration: none;
+}
+.footer {
+    padding: 100px 150px 50px;
+    background:#000000;
+    background-blend-mode: screen, normal;
+    display: flex;
+    flex-direction: column;
+}
+.footerTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.logotype {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.logotype a {
+    font-family:'Gilroy-Regular';
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+.footerTittle {
+    font-family:'Gilroy-Bold';
+    font-size: 60px;
+    line-height: 110%;
+    color: #FFA800;
+    margin: 0;
+}
+.footerTittle span {
+    color: #fff;
+    display: block;
+}
+.footerCenter {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footerBottom {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.footerBottom p {
+    font-family:'Barlow-Medium';
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FBA500;
+    margin-right: 17px;
+}
+.text {
+    display: flex;
+    align-items: center;
+}
+.text p {
+    font-family:'Barlow-Medium';
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.3;
+    margin-right: 3px;
+}
+.text a {
+    font-family:'Barlow-Medium';
+    font-size: 18px;
+    line-height: 120%;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+    opacity: 1 !important;
+}
+.linkSocial a {
+    margin-right: 16px;
+}
+.linkSocial a:nth-last-child(1) {
+    margin-right: 0;
+}
