@@ -1,22 +1,33 @@
-@font-face {
-    font-family:'Gilroy-Bold';
-    src: url("../font/Gilroy-Bold.woff2") format("woff2"),
-         url("../font/Gilroy-Bold.woff") format("woff");
-    font-weight: 700;
+/* @font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('https://shapoval.agency/wp-content/themes/generatepress/assets/fonts/Gilroy/Gilroy-Extrabold.eot');
+    src: local('Gilroy Extrabold'), local('Gilroy-Extrabold'),
+        url('https://shapoval.agency/wp-content/themes/generatepress/assets/fonts/Gilroy/Gilroy-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('https://shapoval.agency/wp-content/themes/generatepress/assets/fonts/Gilroy/Gilroy-Extrabold.woff2') format('woff2'),
+        url('https://shapoval.agency/wp-content/themes/generatepress/assets/fonts/Gilroy/Gilroy-Extrabold.woff') format('woff'),
+        url('https://shapoval.agency/wp-content/themes/generatepress/assets/fonts/Gilroy/Gilroy-Extrabold.ttf') format('truetype');
+    font-weight: 800;
     font-style: normal;
+    font-display: swap;
 }
 @font-face {
-    font-family:'Gilroy-Regular';
-    src: url("../font/Gilroy-Regular.woff2") format("woff2"),
-         url("../font/Gilroy-Regular.woff") format("woff");
-    font-weight: 700;
+    font-family: 'Gilroy-Regular';
+    src: url('https://shapoval.agency/wp-content/themes/generatepress/assets/fonts/Gilroy/Gilroy-Regular.eot');
+    src: local('Gilroy Regular'), local('Gilroy-Regular'),
+        url('https://shapoval.agency/wp-content/themes/generatepress/assets/fonts/Gilroy/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('https://shapoval.agency/wp-content/themes/generatepress/assets/fonts/Gilroy/Gilroy-Regular.woff2') format('woff2'),
+        url('https://shapoval.agency/wp-content/themes/generatepress/assets/fonts/Gilroy/Gilroy-Regular.woff') format('woff'),
+        url('https://shapoval.agency/wp-content/themes/generatepress/assets/fonts/Gilroy/Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
+
 @font-face {
     font-family:"Barlow-Medium";
-    src: url("../font/Barlow-Medium.woff2") format("woff2"),
-         url("../font/Barlow-Medium.woff") format("woff"),
-         url("../font/Barlow-Medium.ttf") format("truetype");
+    src: url("https://shapoval.agency/wp-content/themes/generatepress/assets/fonts/Barlow/Barlow-Medium.woff2") format("woff2"),
+         url("https://shapoval.agency/wp-content/themes/generatepress/assets/fonts/Barlow/Barlow-Medium.woff") format("woff"),
+         url("https://shapoval.agency/wp-content/themes/generatepress/assets/fonts/Barlow/Barlow-Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
@@ -108,4 +119,4 @@ a {
 }
 .linkSocial a:nth-last-child(1) {
     margin-right: 0;
-}
+} */
